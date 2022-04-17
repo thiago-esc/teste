@@ -9,7 +9,7 @@ body {
 }
 
 .menu {
-	background: #56CC9D;
+	background: #3E3636;
 	position: fixed;
 	width: 100%;
 	top: 0;
@@ -92,7 +92,8 @@ body {
 
 .tab-menu li a {
 	display: inline-block;
-	color: #56CC9D;
+	/* color: #3E3636; */
+	color: #000;
 	border: 4px solid;
 	padding: 10px 0px;
 	width: 200px;
@@ -132,7 +133,7 @@ h1 {
 h3 {
 	font-size: 1.4em;
 	letter-spacing: 1px;
-	color: #56CC9D;
+	color: #d72323;
 }
 
 p {
@@ -167,7 +168,7 @@ p {
 }
 
 .florestas {
-	background: #FFF3EA;
+	background: #F5EDED;
 }
 
 .florestas .item-img {
@@ -204,9 +205,10 @@ p {
 }
 
 .js [data-click].active {
-	background: #56CC9D;
+	background: #000;
 	color: white;
-	border-color: #56CC9D;
+	border-color: #000;
+	/* border-color: #3E3636; */
 }
 
 .js [data-target].active {
