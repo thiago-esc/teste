@@ -9,7 +9,8 @@ body {
 }
 
 .menu {
-	background: #3E3636;
+	/* background: #3E3636; */
+	background: #000;
 	position: fixed;
 	width: 100%;
 	top: 0;
@@ -46,7 +47,7 @@ body {
 .menu nav li a::after {
 	content: '';
 	display: block;
-	background: white;
+	background: #FF4338;
 	height: 2px;
 	width: 0;
 	transition: .3s;
@@ -59,10 +60,10 @@ body {
 .logo {
 	display: block;
 	color: white;
-	width: 200px;
-	padding: 10px 10px 14px 20px;
+	/* width: 200px; */
+	padding: 10px 10px 12px 20px;
 	text-decoration: none;
-	font-family: 'Playfair Display';
+	font-family: 'Georgia';
 	text-transform: uppercase;
 	letter-spacing: 5px;
 	font-size: 2em;
@@ -102,6 +103,20 @@ body {
 	font-family: 'Playfair Display';
 	text-transform: uppercase;
 	letter-spacing: 2px;
+}
+
+.topo {
+	background: #000;
+	padding-top: 30px;
+	text-align: end;
+}
+
+.topo img {
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 300px;
+	max-width: 100%;
 }
 	
 h1, h2, h3 {
@@ -147,7 +162,9 @@ p {
 .item-img img {
 	display: block;
 	max-width: 100%;
-	float: right;
+	max-height: 450px;
+	margin: auto;
+	/* float: right; */
 }
 
 .item {
@@ -194,6 +211,14 @@ p {
 .item-info > div {
 	width: 50%;
 	float: left;
+}
+
+.item-info .flex {
+	display: flex;
+}
+
+.contato-icone {
+	margin-left: 10px;
 }
 
 .js [data-target] {
@@ -291,7 +316,7 @@ p {
 	
 }
 
-.introducao {
+/* .introducao {
 	background: black;
 }
 
@@ -327,7 +352,7 @@ p {
 .slide > .active {
 	position: relative;
 	opacity: 1;
-}
+} */
 
 .js [data-anime] {
 	opacity: 0;
