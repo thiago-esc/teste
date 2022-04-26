@@ -34,7 +34,7 @@ body {
 .menu nav li a {
 	display: block;
 	color: white;
-	padding: 15px 20px;
+	padding: 15px;
 	text-decoration: none;
 	font-family: monospace;
 	text-transform: uppercase;
@@ -60,12 +60,12 @@ body {
 	display: block;
 	color: white;
 	/* width: 200px; */
-	padding: 10px 10px 12px 20px;
+	padding: 20px;
 	text-decoration: none;
 	font-family: 'Georgia';
-	text-transform: uppercase;
-	letter-spacing: 5px;
-	font-size: 2em;
+	/* text-transform: uppercase; */
+	letter-spacing: 1px;
+	font-size: 1.5em;
 	float: left;
 }
 
@@ -279,6 +279,10 @@ span.destaque {
 
 @media only screen and (max-width: 768px) {
 
+	.logo {
+		font-size: 1.1em;
+	}
+
 	.mobile-btn {
 		display: block;
 		color: white;
@@ -361,7 +365,7 @@ span.destaque {
 	}
 
 	.topo img {
-		height: 120px;
+		height: 250px;
 	}
 
 	.item h2 {
