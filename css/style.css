@@ -52,18 +52,17 @@ body {
 	transition: .3s;
 }
 
-.menu nav li a:hover::after, .menu nav li a.active::after {
+.menu nav li a:hover::after, 
+.menu nav li a.active::after {
 	width: 100%;
 }
 
 .logo {
 	display: block;
 	color: white;
-	/* width: 200px; */
 	padding: 20px;
 	text-decoration: none;
 	font-family: 'Georgia';
-	/* text-transform: uppercase; */
 	letter-spacing: 1px;
 	font-size: 1.5em;
 	float: left;
@@ -92,7 +91,6 @@ body {
 
 .tab-menu li a {
 	display: inline-block;
-	/* color: #3E3636; */
 	color: #000;
 	border: 4px solid;
 	padding: 10px 0px;
@@ -163,7 +161,6 @@ p {
 	max-width: 100%;
 	max-height: 450px;
 	margin: auto;
-	/* float: right; */
 }
 
 .item {
@@ -249,6 +246,9 @@ ul.lista li {
 	line-height: 1.4;
 	color: rgba(0,0,0,.7);
 }
+i.icon {
+	font-size: 35px;
+}
 span.destaque {
 	font-style: italic;
 	text-decoration: underline;;
@@ -278,10 +278,6 @@ span.destaque {
 }
 
 @media only screen and (max-width: 768px) {
-
-	.logo {
-		font-size: 1.1em;
-	}
 
 	.mobile-btn {
 		display: block;
@@ -356,11 +352,9 @@ span.destaque {
 
 	.tab-menu li a {
     display: inline-block;
-    /* color: #3E3636; */
     color: #000;
     border: 4px solid;
     padding: 10px 0px;
-    /* width: 100%; */
     margin: 7px;
 	}
 
